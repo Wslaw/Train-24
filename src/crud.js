@@ -63,7 +63,7 @@ function addPostService(data) {
 
 
 
-    return fetch('https://jsonplaceholder.typicode.com/posts1', options)
+    return fetch('https://jsonplaceholder.typicode.com/posts', options)
         .then(resp => {
             if (!resp.ok) {
                 throw new Error(resp.statusText);
